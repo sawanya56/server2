@@ -31,6 +31,16 @@ app.get('/', function (req, res) {
   res.send('aaaaa')
 })
 
+
+
+
+
+
+
+
+
+
+
 app.get('/person', function (req, res){
   connection.query('select * from persons', function (error, results) {
       if (error) throw error;
